@@ -9,8 +9,8 @@ const Logo = ({sideHeader}) => {
         <Fragment>
             {sideHeader?(
                 <Link to={`${process.env.PUBLIC_URL + '/'}`}>
-                    <img src={LogoDark} alt="logo"/>
-                    <img src={LogoLight} className="light-logo" alt="logo"/>
+                    <img src={LogoDark} alt="dana.bond"/>
+                    <img src={LogoLight} className="light-logo" alt="dana.bond"/>
                 </Link>
             ):(
                 <div className="header-logo col-lg-2 col-6 mt-40 mb-40">

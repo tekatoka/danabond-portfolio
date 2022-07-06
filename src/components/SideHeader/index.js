@@ -1,11 +1,11 @@
-import React, {Fragment, useEffect} from 'react';
+import React, { Fragment, useEffect } from 'react';
 import Scrollbar from 'perfect-scrollbar-react';
 import 'perfect-scrollbar-react/dist/style.min.css';
 import Logo from "../logo";
 import NavItem from "../navbar/NavItem";
 import socialicons from '../../data/social-networks'
 
-const SideHeader = ({mobile}) => {
+const SideHeader = ({ mobile }) => {
 
     const closeSideMenu = () => {
         const sideMenuWrap = document.querySelector(".side-header");
@@ -59,45 +59,44 @@ const SideHeader = ({mobile}) => {
 
     return (
         <Fragment>
-            <div className="side-menu-overlay" onClick={() => closeSideMenu()}/>
+            <div className="side-menu-overlay" onClick={() => closeSideMenu()} />
             <div className={`side-header ${mobile ? 'mobile-side-header' : null}`}>
-                <div style={{display: 'flex', maxHeight: '100vh'}}>
-                    <Scrollbar options={{suppressScrollX: true}} enable={!isMobile}>
+                <div style={{ display: 'flex', maxHeight: '100vh' }}>
+                    <Scrollbar options={{ suppressScrollX: true }} enable={!isMobile}>
                         <div className="side-header-inner">
                             <button className="side-header-close d-block d-lg-none"
-                                    onClick={() => {
-                                        closeSideMenu()
-                                    }}>
-                                <span/>
+                                onClick={() => {
+                                    closeSideMenu()
+                                }}>
+                                <span />
                             </button>
                             <div className="side-header-logo pt-120 pt-lg-80 pt-md-80 pt-sm-80 pt-xs-50">
-                                <Logo sideHeader={true}/>
+                                <Logo sideHeader={true} />
                             </div>
 
                             <div className="side-header-menu">
                                 <nav id="side-menu">
                                     <ul className="side-menu">
-                                        <NavItem/>
+                                        <NavItem />
                                     </ul>
                                 </nav>
                             </div>
 
                             <div className="side-header-footer pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
                                 <div className="side-header-contact-info">
-                                    <p><a href="/">+012 345 6789</a></p>
-                                    <p><a href="/">info@example.com</a></p>
+                                    <p><a href="mailto: tekatoka@gmail.com">tekatoka@gmail.com</a></p>
                                 </div>
 
                                 <div className="side-header-social">
                                     {socialicons.map(icon => (
                                         <a key={icon.id} href={`https://${icon.media}.com/${icon.username}`}>
-                                            <i className={`fa fa-${icon.media}`}/>
+                                            <i className={`fa fa-${icon.media}`} />
                                         </a>
                                     ))}
                                 </div>
 
                                 <div className="side-header-copyright">
-                                    <p>&copy; {new Date().getFullYear()} MINIMAU. ALL RIGHT RESERVED</p>
+                                    <p>&copy; {new Date().getFullYear()} DANABOND. ALL RIGHT RESERVED</p>
                                 </div>
                             </div>
                         </div>

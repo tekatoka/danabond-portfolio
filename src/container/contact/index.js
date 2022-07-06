@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import Form from "../../components/form";
 import QuickContact from "../../components/QuickContact";
 import Map from "../../components/map";
@@ -16,15 +16,14 @@ const Contact = () => {
                                 <Col lg={10} className={'mb-45'}>
                                     <div className="contact-form">
                                         <h3>CONTACT FORM</h3>
-                                        <Form/>
+                                        <Form />
                                     </div>
                                 </Col>
 
                                 <Col lg={10}>
                                     <QuickContact
-                                        phone={'+012456879'}
-                                        email={'hello@example.com'}
-                                        location={'2020 Willshire Glen, Alpharetta, GA-30009'}
+                                        email={'tekatoka@gmail.com'}
+                                        location={'10553 Berlin'}
                                     />
                                 </Col>
                             </Row>
@@ -32,9 +31,9 @@ const Contact = () => {
 
                         <Col lg={6}>
                             <Map
-                                text={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid'}
-                                lat={40.6971494}
-                                long={-74.2598661}
+                                text={'The most beautiful city: Berlin!'}
+                                lat={52.520008}
+                                long={13.404954}
                             />
                         </Col>
                     </Row>

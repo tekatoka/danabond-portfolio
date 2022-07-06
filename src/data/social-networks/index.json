@@ -5,8 +5,13 @@
     "url": "https://www.linkedin.com/in/bogdana-bondarenko-56450b31/"
   },
   {
-    "id": 3,
+    "id": 2,
     "media": "xing",
     "url": "https://www.xing.com/profile/Bogdana_Bondarenko2/"
+  },
+    {
+    "id": 3,
+    "media": "github",
+    "url": "https://github.com/tekatoka"
   }
 ]

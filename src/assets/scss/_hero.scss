@@ -101,7 +101,7 @@
 
 /*----- new hero style start -----*/
 .slider-bg-1 {
-    background-image: url(../images/hero/slider-1.jpg);
+    background-image: url(../images/hero/slider-startpage.png);
 }
 
 /*Main Slider One*/
@@ -134,19 +134,22 @@
 /*Main Slider One Content*/
 .main-slider-content {
     & h2 {
-        font-size: 45px;
+        font-size: 40px;
         line-height: 1;
         font-weight: 300;
     }
 
     & h1 {
-        font-size: 80px;
+        font-size: 60px;
         line-height: 1;
         font-weight: 400;
     }
 
+    & h3 {
+        font-size: 22px;
+    }
+
     & a {
-        font-size: 26px;
         line-height: 1.05;
         color: $heading-color;
         border-bottom: 2px solid $heading-color;

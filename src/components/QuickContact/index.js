@@ -3,19 +3,19 @@ import React from 'react';
 const QuickContact = ({ phone, email, location }) => {
     return (
         <div className="contact-info">
-            <h3>QUICK CONTACT</h3>
+            <h3>24/7</h3>
             <ul>
                 {phone && <li>
-                    <span>Phone:</span>
+                    <span>Tel:</span>
                     <a href={`tel:${phone}`}>{phone}</a>
                 </li>
                 }
                 <li>
-                    <span>Email:</span>
+                    <span>E-Mail:</span>
                     <a href={`mailto:${email}`}>{email}</a>
                 </li>
                 <li>
-                    <span>Location:</span>{location}
+                    {location}
                 </li>
             </ul>
         </div>

@@ -7,7 +7,7 @@ const FooterThree = ({ position }) => {
             <Container fluid>
                 <Row className={'align-items-center'}>
                     <Col className={'footer-copyright text-center'}>
-                        <p>&copy; {new Date().getFullYear()} DANA<strong>BOND</strong>. ALL RIGHT RESERVED</p>
+                        <p>&copy; {new Date().getFullYear()} DANA<strong>BOND</strong> | <a href="/impressum">Impressum</a> | Datenschultz</p>
                     </Col>
                 </Row>
             </Container>

@@ -35,14 +35,14 @@ const Form = () => {
 
     return (
         <>
-            {isSent && <p className='success'>Thank you {toSend.from_name}! Your message has been sent.</p>}
-            {sendingFailed && <p className='error'>Oops... something went wrong. Your message could not be sent. Please reload the page and try again. Thanks!</p>}
+            {isSent && <p className='success'>Danke {toSend.from_name}! Deine Nachricht wurde versendet.</p>}
+            {sendingFailed && <p className='error'>Oops!Irgendwas ist schief gelaufen.Deine Nachricht konnte nicht gesendet werden.Bitte die Seite neu laden und erneut versuchen. Danke!</p>}
             {!isSent &&
                 <form id="contact-form" onSubmit={onSubmit}>
                     <Input type={'text'} id={'from_name'} name={'from_name'} placeholder={'Name'} value={toSend.from_name} required={true} onChange={(e) => handleChange(e)} />
                     <Input type={'email'} id={'from_email'} name={'from_email'} placeholder={'Email'} value={toSend.from_email} required={true} onChange={(e) => handleChange(e)} />
                     <Input type={'textarea'} id={'message'} name={'message'} placeholder={'Message'} value={toSend.message} required={true} onChange={(e) => handleChange(e)} />
-                    <button type={'submit'}>Send</button>
+                    <button type={'submit'}>Absenden</button>
                 </form>
             }
         </>

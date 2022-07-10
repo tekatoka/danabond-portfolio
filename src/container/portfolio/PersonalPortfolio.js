@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import SectionTitle from "../../components/SectionTitle";
 import Portfolio from "../../components/portfolio";
 import portfolios from '../../data/portfolio/index';
@@ -11,8 +11,8 @@ const PersonalPortfolio = () => {
                 <Row>
                     <Col>
                         <SectionTitle
-                            title={'My Portfolios'}
-                            content={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, aliquam.'}
+                            title={'Mein Portfolio'}
+                            content={'Ich bin seit 2013 als Softwareentwicklerin tätig und habe in dieser Zeit viele Projekte mit verschiedensten Technologien realisiert.'}
                         />
                     </Col>
                 </Row>
@@ -29,6 +29,18 @@ const PersonalPortfolio = () => {
                             />
                         </Col>
                     ))}
+                </Row>
+                <Row>
+                    <div className="offset-lg-4 col-lg-4 col-12 d-flex justify-content-center order-lg-2 order-1 mt-25 mb-sm-15 mb-xs-15">
+                        <button
+                            className={`load-more-btn`}
+                            onClick={() => {
+                                window.location.href = '/portfolio';
+                            }}
+                        >
+                            MEHR PROJEKTE...
+                        </button>
+                    </div>
                 </Row>
             </Container>
         </div>

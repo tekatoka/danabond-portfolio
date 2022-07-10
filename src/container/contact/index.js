@@ -15,7 +15,7 @@ const Contact = () => {
                             <Row>
                                 <Col lg={10} className={'mb-45'}>
                                     <div className="contact-form">
-                                        <h3>CONTACT FORM</h3>
+                                        <h3>KONTAKTFORMULAR</h3>
                                         <Form />
                                     </div>
                                 </Col>
@@ -31,7 +31,7 @@ const Contact = () => {
 
                         <Col lg={6}>
                             <Map
-                                text={'The most beautiful city: Berlin!'}
+                                text={'Die beste Stadt der Welt: Berlin!'}
                                 lat={52.520008}
                                 long={13.404954}
                             />

@@ -44,7 +44,7 @@
   },
   {
     "id": 2,
-    "title": "About Me",
+    "title": "Über mich",
     "link": "/about",
     "megaMenu": false,
     "subMenu": false
@@ -141,7 +141,7 @@
   },
   {
     "id": 4,
-    "title": "Pages",
+    "title": "Seiten",
     "link": "/service",
     "megaMenu": false,
     "subMenu": [
@@ -207,7 +207,7 @@
   },
   {
     "id": 6,
-    "title": "Contact",
+    "title": "Kontakt",
     "link": "/contact"
   }
 ]

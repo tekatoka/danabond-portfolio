@@ -96,7 +96,7 @@ const SideHeader = ({ mobile }) => {
                                 </div>
 
                                 <div className="side-header-copyright">
-                                    <p>&copy; {new Date().getFullYear()} DANABOND. ALL RIGHT RESERVED</p>
+                                    <p>&copy; {new Date().getFullYear()} DANABOND.</p>
                                 </div>
                             </div>
                         </div>

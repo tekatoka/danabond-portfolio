@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import Sidebar from "../../components/sidebar";
 import banner from '../../assets/images/banner/banner-1.jpg'
 
@@ -11,20 +11,20 @@ const SidebarWrap = () => {
             <Sidebar>
                 <div className="sidebar-search">
                     <form action="/" method="post">
-                        <input type="text" placeholder="Search"/>
-                        <button><i className="fa fa-search"/></button>
+                        <input type="text" placeholder="Search" />
+                        <button><i className="fa fa-search" /></button>
                     </form>
                 </div>
             </Sidebar>
 
-            <Sidebar title={"ABOUT ME"}>
+            <Sidebar title={"ÜBER MICHABOUT ME"}>
                 <div className="sidebar-about">
                     <p>There are many variations of passages of Lorem Ipsum available, alteration in some form, by
                         injected humour lebmid</p>
                 </div>
             </Sidebar>
 
-            <Sidebar title={"Categories"}>
+            <Sidebar title={"Kategorien"}>
                 <ul className="sidebar-list">
                     <li><a href="/">Corporate</a></li>
                     <li><a href="/">Graphic Design</a></li>
@@ -54,7 +54,7 @@ const SidebarWrap = () => {
 
             <Sidebar>
                 <div className="sidebar-banner">
-                    <a href="/"><img src={banner} alt="banner"/></a>
+                    <a href="/"><img src={banner} alt="banner" /></a>
                 </div>
             </Sidebar>
         </Fragment>

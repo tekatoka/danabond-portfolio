@@ -1,173 +1,295 @@
 [
   {
     "id": 1,
-    "title": "Oil Paint Dog",
-    "category": "Design",
+    "title": "ESF (Europäischer Sozialfonds)",
+    "category": "Fullstack",
     "thumb": "portfolio-1.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "description": "ESF (Europäischer Sozialfonds): Portal für die Überprüfung der Anträge",
     "previewImages": [
       "portfolio-1.jpg",
       "portfolio-2.jpg"
     ],
     "meta": {
-      "client": "Jerry Wilson",
-      "date": "01/05/2020",
-      "website": "https://hasthemes.com",
+      "client": "IBB (Inverstitionsbank Berlin-Brandenburg",
+      "date": "01/11/2022 - 01/07/2022",
       "services": [
-        "Design",
-        "Branding",
-        "Web",
-        "Photography"
+        "UI/UX Design",
+        "Frontend",
+        "Backend"
+      ],
+      "technologies": [
+        "React.js",
+        "Typescript",
+        "Redux",
+        "Storybook: UI component explorer",
+        "Tailwind",
+        "SASS/CSS",
+        ".NET Core / C#",
+        "MS SQL"
       ]
     }
   },
   {
     "id": 2,
-    "title": "Hardcover Book Cover",
-    "category": "Photography",
+    "title": "Stiftungsaufsicht",
+    "category": "Fullstack",
     "thumb": "portfolio-2.jpg",
-    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid",
+    "description": "Portal für Abgabe und Überprüfung der Jahresberichte der Berliner Stiftungen",
     "previewImages": [
       "portfolio-2.jpg",
       "portfolio-2.jpg"
     ],
     "meta": {
-      "client": "Raju Wilson",
-      "date": "01/05/2021",
-      "website": "https://hasthemes.com",
+      "client": "Senatsverwaltung für Justiz, Vielfalt und Antidiskriminierung, Berlin",
+      "date": "01/11/2019 - 01/03/2020 und 01/05/2022 - 01/08/2022",
       "services": [
-        "Design",
-        "Branding",
-        "Web",
-        "Photography"
+        "UI/UX Design",
+        "Frontend",
+        "Backend"
+      ],
+      "technologies": [
+        "React.js",
+        "Txypescript",
+        "Redux",
+        "SASS/CSS",
+        ".NET Core / C#",
+        "NoSQL (Mongo DB)",
+        "Webpack"
       ]
     }
   },
   {
     "id": 3,
-    "title": "Flying Macbook",
-    "category": "Markup",
+    "title": "Königsteiner DataWarehouse",
+    "category": "Frontend",
     "thumb": "portfolio-3.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "description": "Dashboard für das Monitoring der Werbecampaigns",
     "previewImages": [
       "portfolio-3.jpg",
       "portfolio-2.jpg"
     ],
     "meta": {
-      "client": "Jerry Wilson",
-      "date": "21/05/2021",
-      "website": "https://hasthemes.com",
+      "client": "Königsteiner - Agentur für Personalmarketing",
+      "date": "01/10/2021 - heute",
       "services": [
-        "Design",
-        "Web",
-        "Photography"
+        "UI/UX Design",
+        "Frontend",
+        "Mockups"
+      ],
+      "technologies": [
+        "React.js",
+        "Typescript",
+        "Redux",
+        "ReCharts",
+        "SASS/CSS",
+        "Bootstrap",
+        "Webpack"
       ]
     }
   },
   {
     "id": 4,
-    "title": "Floating Card",
-    "category": "Design",
-    "thumb": "portfolio-4.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "title": "Königsteiner DSP (Demand Side Platform)",
+    "category": "Fullstack",
+    "thumb": "portfolio-3.jpg",
+    "description": "Portal für die Erstellung und Anpassung der Werbecampaigns",
     "previewImages": [
-      "portfolio-4.jpg",
-      "portfolio-2.jpg",
-      "portfolio-3.jpg"
+      "portfolio-3.jpg",
+      "portfolio-2.jpg"
     ],
     "meta": {
-      "client": "Jowel Jerry",
-      "date": "01/05/2021",
-      "website": "https://hasthemes.com",
+      "client": "Königsteiner - Agentur für Personalmarketing",
+      "date": "01/01/2021 - 01/12/2021",
       "services": [
-        "Branding",
-        "Web",
-        "Photography"
+        "UI/UX Design",
+        "Frontend",
+        "Backend",
+        "Anbindung der externen API"
+      ],
+      "technologies": [
+        "React.js",
+        "Typescript",
+        "Redux",
+        "SASS/CSS",
+        "Bootstrap",
+        "Scala",
+        "Docker",
+        "PostgreSQL"
       ]
     }
   },
   {
     "id": 5,
-    "title": "Minimau Typeface",
-    "category": "Website",
+    "title": "peredvizh.org",
+    "category": "Design / Web",
     "thumb": "portfolio-5.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "description": "Projekt der reisenden Poesie",
     "previewImages": [
       "portfolio-5.jpg",
       "portfolio-1.jpg"
     ],
     "meta": {
-      "client": "Rashed Jerry",
-      "date": "01/05/2021",
-      "website": "https://hasthemes.com",
+      "client": "PANDA platforma e.V. mit Unterstützung des Auswärtigen Amtes der Bundesrepublik Deutschland",
+      "date": "01/10/2021 - 01/11/2021",
+      "website": "https://peredvizh.org",
       "services": [
         "Branding",
+        "Design",
         "Web",
-        "Photography"
+        "UI/UX Design",
+        "Erstellung und Anpassung von CMS"
+      ],
+      "technologies": [
+        "React.js",
+        "Javascript",
+        "Redux",
+        "SASS/CSS",
+        "Node.js",
+        "Strapi",
+        "PostgreSQL"
       ]
     }
   },
-  {
+    {
     "id": 6,
-    "title": "Oil Dog Paint",
-    "category": "Design",
+    "title": "panda-platforma.berlin",
+    "category": "Design / Web",
+    "thumb": "portfolio-5.jpg",
+    "description": "PANDA platforma: Kulturplattform in Berlin, Prenzlauer Berlg (Kulturbrauerei)",
+    "previewImages": [
+      "portfolio-5.jpg",
+      "portfolio-1.jpg"
+    ],
+    "meta": {
+      "client": "PANDA platforma e.V.",
+      "date": "01/10/2019 - 01/03/2020",
+      "website": "https://panda-platforma.berlin",
+      "services": [
+        "Branding",
+        "Web",
+        "UI/UX Design",
+        "CMS",
+        "Anbindung der externen APIs (Facebook, Eventbrite)"
+      ],
+      "technologies": [
+        "Wordpress",
+        "PHP",
+        "HTML/CSS"
+      ]
+    }
+  },
+    {
+    "id": 7,
+    "title": "Stiller Alarm Mobile App",
+    "category": "Mobile App",
     "thumb": "portfolio-6.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "description": "Alarmierungssystem Stiller Alarm: Mobile App",
     "previewImages": [
       "portfolio-6.jpg",
       "portfolio-2.jpg",
       "portfolio-3.jpg"
     ],
     "meta": {
-      "client": "Tasnim Khatun",
-      "date": "29/09/2021",
-      "website": "https://hasthemes.com",
+      "client": "Stiller Alarm GmbH",
+      "date": "01/06/2020 - 01/06/2021",
+      "website": "https://stilleralarm.de",
       "services": [
-        "Branding",
-        "Tech",
-        "Photography"
-      ]
-    }
-  },
-  {
-    "id": 7,
-    "title": "Hardcover Book Cover",
-    "category": "Photography",
-    "thumb": "portfolio-7.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
-    "previewImages": [
-      "portfolio-7.jpg",
-      "portfolio-3.jpg"
-    ],
-    "meta": {
-      "client": "Hassan Al",
-      "date": "11/03/2021",
-      "website": "https://hasthemes.com",
-      "services": [
-        "Branding",
-        "Tech",
-        "Photography"
+        "UI/UX Design",
+        "Frontend",
+        "RestAPI",
+        "Anbindung Bluetooth-Buttons"
+      ],
+      "technologies": [
+        "React Native",
+        "Expo",
+        "Javascript",
+        "Redux",
+        "Java (Anpassung von native modules)",
+        ".NET Core / C# (Backend)"
       ]
     }
   },
   {
     "id": 8,
-    "title": "Flying Macbook 2",
-    "category": "Markup",
+    "title": "Stiller Alarm",
+    "category": "Fullstack",
+    "thumb": "portfolio-6.jpg",
+    "description": "Alarmierungssystem Stiller Alarm: Webportal + Desktop-Client",
+    "previewImages": [
+      "portfolio-6.jpg",
+      "portfolio-2.jpg",
+      "portfolio-3.jpg"
+    ],
+    "meta": {
+      "client": "Stiller Alarm GmbH",
+      "date": "01/03/2017 - heute",
+      "website": "https://stilleralarm.de",
+      "services": [
+        "Frontend",
+        "Backend",
+        "RestAPI"
+      ],
+      "technologies": [
+        "Angular 2",
+        "ngRx",
+        "PrimeNG",
+        "Typescript",
+        ".NET Core / C#",
+        "WPF (desktop app)",
+        "MS SQL"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "title": "File Server Management Tools (FSM)",
+    "category": "Fullstack",
+    "thumb": "portfolio-7.jpg",
+    "description": "Entwicklung des Migrationstools für die Migrierung von Dateien",
+    "previewImages": [
+      "portfolio-7.jpg",
+      "portfolio-3.jpg"
+    ],
+    "meta": {
+      "client": "IT-Dienstleistungszentrum Berlin (ITDZ Berlin)",
+      "date": "01/01/2018 - 01/12/2021",
+      "services": [
+        "Frontend",
+        "Backend",
+        "Datenbank"
+      ],
+      "technologies": [
+        "Razor",
+        ".NET Core 3.0 / C#",
+        "MS SQL",
+        "JavaScript",
+        "HTML / CSS / Bootstrap"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "title": "NetConFolder",
+    "category": "SharePoint / Fullstack",
     "thumb": "portfolio-8.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "description": "Mobilen App und SharePoint Solution zur digitalen Darstellung von Arbeitsmappen",
     "previewImages": [
       "portfolio-8.jpg",
       "portfolio-4.jpg"
     ],
     "meta": {
-      "client": "Tasnim Khatun",
-      "date": "29/09/2021",
-      "website": "https://hasthemes.com",
+      "client": "Informationstechnikzentrum Bund (ITZBund) + Bundesfinanzministerium",
+      "date": "01/08/2018 - 01/12/2020",
       "services": [
-        "Branding",
-        "Tech",
-        "Photography"
+        "Frontend",
+        "Backend",
+        "Testing"
+      ],
+      "technologies": [
+        "SharePoint 2016 / 2019",
+        ".NET / C#",
+        "UWP - Universal Windows Plattform f. Windows App",
+        "HTML / CSS"
       ]
     }
   },

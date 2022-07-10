@@ -10,6 +10,7 @@ import AboutPage from "./pages/about";
 import ErrorPage from "./pages/404Error";
 import ContactPage from "./pages/contact";
 import ServicePage from "./pages/service";
+import Impressum from "./pages/impressum";
 import HomeBlog from "./pages/home/HomeBlog";
 import HomeDefault from "./pages/home/HomeDefault";
 import HomeFiveColumn from './pages/home/HomeFiveColumn';
@@ -36,6 +37,7 @@ import PortfolioGridThreeColumnFullWidthPage from "./pages/portfolio/grid/three-
 import PortfolioMasonryFourColumnFullWidthPage from "./pages/portfolio/masonry/four-column-fullwidth";
 import PortfolioMasonryFiveColumnFullWidthPage from "./pages/portfolio/masonry/five-column-fullwidth";
 import PortfolioMasonryThreeColumnFullWidthPage from "./pages/portfolio/masonry/three-column-fullwidth";
+import ImpressumPage from './pages/impressum';
 
 const App = () => {
        return (
@@ -83,7 +85,7 @@ const App = () => {
                                           component={PortfolioGridThreeColumnFullWidthPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/portfolio-grid-four-column"}`}
                                           component={PortfolioGridFourColumnPage} />
-                                   <Route path={`${process.env.PUBLIC_URL + "/portfolio-grid-three-column"}`}
+                                   <Route path={`${process.env.PUBLIC_URL + "/portfolio"}`}
                                           component={PortfolioGridThreeColumnPage} />
                                    <Route path={`${process.env.PUBLIC_URL + "/portfolio-grid-two-column"}`}
                                           component={PortfolioGridTwoColumnPage} />
@@ -103,6 +105,8 @@ const App = () => {
                                           component={HomeThreeColumn} />
                                    <Route path={`${process.env.PUBLIC_URL + "/home-default"}`}
                                           component={HomeDefault} />
+                                   <Route path={`${process.env.PUBLIC_URL + "/impressum"}`}
+                                          component={ImpressumPage} />
                                    <Route exact path={`${process.env.PUBLIC_URL + "/"}`}
                                           component={HomePersonalPortfolio}
                                    />

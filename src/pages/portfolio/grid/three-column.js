@@ -12,7 +12,7 @@ const PortfolioGridThreeColumnPage = () => {
         <Fragment>
             <Header classes={'position-static'} />
             <SideHeader mobile={true} />
-            <PortfolioGridThreeColumn portfolios={portfolios} loading={loading} />
+            <PortfolioGridThreeColumn portfolios={portfolios} />
             <FooterThree position={'fixed'} />
         </Fragment>
     );

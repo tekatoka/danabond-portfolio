@@ -10,7 +10,7 @@ import AboutPage from "./pages/about";
 import ErrorPage from "./pages/404Error";
 import ContactPage from "./pages/contact";
 import ServicePage from "./pages/service";
-import Impressum from "./pages/impressum";
+import ImpressumPage from "./pages/impressum";
 import HomeBlog from "./pages/home/HomeBlog";
 import HomeDefault from "./pages/home/HomeDefault";
 import HomeFiveColumn from './pages/home/HomeFiveColumn';
@@ -37,7 +37,6 @@ import PortfolioGridThreeColumnFullWidthPage from "./pages/portfolio/grid/three-
 import PortfolioMasonryFourColumnFullWidthPage from "./pages/portfolio/masonry/four-column-fullwidth";
 import PortfolioMasonryFiveColumnFullWidthPage from "./pages/portfolio/masonry/five-column-fullwidth";
 import PortfolioMasonryThreeColumnFullWidthPage from "./pages/portfolio/masonry/three-column-fullwidth";
-import ImpressumPage from './pages/impressum';
 
 const App = () => {
        return (

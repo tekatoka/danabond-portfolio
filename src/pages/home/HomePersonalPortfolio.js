@@ -6,7 +6,6 @@ import SideHeader from "../../components/SideHeader";
 import BannerPersonalPortfolio from "../../components/HeroBanner/PersonalPortfolio";
 import PersonalPortfolio from "../../container/portfolio/PersonalPortfolio";
 import PersonalPortfolioService from "../../container/service";
-import PersonalPortfolioTeam from "../../container/team";
 import PersonalPortfolioCareer from '../../container/career';
 import Contact from "../../container/contact";
 import Footer from "../../components/footer/FooterThree";

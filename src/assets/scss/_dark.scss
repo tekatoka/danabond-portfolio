@@ -26,6 +26,10 @@
     background-color: lighten($heading-color, 3) !important;
   }
 
+  & .bg-lightgrey {
+    background-color: lighten($heading-color, 3) !important;
+  }
+
   & .nicescroll-cursors {
     border-color: transparent !important;
     background-color: rgab($black, 0.5) !important;

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../assets/scss/switcher.scss'
 
 const Switcher = () => {
@@ -49,27 +49,27 @@ const Switcher = () => {
                 key={color}
                 onClick={colorPickHandler}
                 data-color={color}
-                style={{backgroundColor: `${colorLists[color]}`}}
+                style={{ backgroundColor: `${colorLists[color]}` }}
             />
         )
     }
     return (
         <div className="customizer-wrap">
             <button className="customizer-toggle" onClick={customizerHandler}>
-                <i className="fa fa-cog fa-spin" style={{pointerEvents: "none"}}/>
+                <i className="fa fa-cog fa-spin" style={{ pointerEvents: "none" }} />
             </button>
             <div className="customizer-inner">
-                <div className="customizer-item">
+                {/* <div className="customizer-item">
                     <h4>Chose Color</h4>
                     <ul className="color-setting">
                         {coloPickItem}
                     </ul>
-                </div>
+                </div> */}
 
                 <div className="customizer-item mt-25">
-                    <h4>Switch Theme</h4>
+                    <h4>Theme wechseln</h4>
                     <button className="btn-theme" onClick={themeHandler}>
-                        <span className='ball'/>
+                        <span className='ball' />
                     </button>
                 </div>
             </div>

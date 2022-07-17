@@ -27,6 +27,13 @@
 
     & img {
       width: 100%;
+      -webkit-filter: grayscale(100%); 
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        // filter: url(grayscale.svg); /* Firefox 4+ */
+        filter: gray; /* IE 6-9 */
     }
   }
 
@@ -85,6 +92,16 @@
     & .portfolio-image {
       &::before {
         opacity: 0.8;
+      }
+
+      img {
+        -webkit-filter: grayscale(0%); 
+        -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+        -o-filter: grayscale(0%);
+          filter: grayscale(0%);
+          // filter: url(grayscale.svg); /* Firefox 4+ */
+          filter: none; /* IE 6-9 */
       }
     }
 
@@ -203,10 +220,6 @@
   font-weight: 500;
   letter-spacing: 1px;
   color: $heading-color;
-
-  &:hover {
-    color: $heading-color;
-  }
 
   // Responsive
   @media #{$large-mobile}{

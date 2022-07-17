@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "title": "FullStack-Entwicklerin mit Fokus auf Frontend (React.js/TypeScript/.NET)",
+        "employer": "Jaemacom GmbH",
+        "employerWebsite": "https://jaemacom.de",
+        "employerLogo": "jaemacom.svg",
+        "time": "10/2016 - heute",
+        "isCurrent": true,
+        "branch": "IT Dienstleister"
+    },
+    {
+        "id": 2,
+        "title": "Frontend-Entwicklerin (React.js/TypeScript) - extern",
+        "employer": "Investitionsbank Berlin-Brandenburg",
+        "employerWebsite": "https://ibb.de",
+        "employerLogo": "ibb.png",
+        "time": "10/2021 - heute",
+        "isCurrent": true,
+        "branch": "Bankwesen"
+    },
+    {
+        "id": 3,
+        "title": "Fullstack-Entwicklerin (.NET)",
+        "employer": "beCoding SoMa (Tochterfirma von Iden GmbH)",
+        "employerWebsite": "https://iden.de",
+        "employerLogo": "iden.svg",
+        "time": "11/2014 - 09/2016",
+        "branch": "Handel"
+    },
+    {
+        "id": 4,
+        "title": ".NET-Entwicklerin",
+        "employer": "Pinuts media+science GmbH",
+        "employerWebsite": "https://iden.de",
+        "employerLogo": "pinuts.svg",
+        "time": "05/2014 - 09/2016",
+        "branch": "Internet und Informationstechnologie"
+    },
+    {
+        "id": 5,
+        "title": ".NET-Entwicklerin",
+        "employer": "app@web SWE GmbH",
+        "employerWebsite": "softwareentwicklung-berlin.de",
+        "employerLogo": "app-web.png",
+        "time": "01/2013 - 04/2014",
+        "branch": "Internet und Informationstechnologie"
+    }
+]

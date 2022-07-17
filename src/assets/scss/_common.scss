@@ -86,11 +86,12 @@ a, button, img, input, span {
 a:focus {
   color: inherit;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
-a:hover {
-  text-decoration: none;
+a:hover, button:hover {
+  color: $theme-color-2;
+  text-decoration: underline;
 }
 
 button, input[type="submit"] {
@@ -170,6 +171,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .bg-grey {
   background-color: $grey !important;
+}
+
+.bg-lightgrey {
+  background-color: $lightgrey;
 }
 
 /*-- 
@@ -448,7 +453,7 @@ div#fp-nav {
 
 /*----- section title start -----*/
 .section-title {
-  max-width: 400px;
+  max-width: 450px;
   margin: 0 auto;
 
   .title {

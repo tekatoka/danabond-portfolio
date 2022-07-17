@@ -216,6 +216,7 @@
   & a {
     color: $body-color;
     margin-right: 25px;
+    text-decoration: none!important;
 
     & i {
       display: block;
@@ -224,7 +225,7 @@
     }
 
     &:hover {
-      color: $heading-color;
+      color: $theme-color-2;
     }
 
     &:last-child {

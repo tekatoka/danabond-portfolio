@@ -3,11 +3,11 @@
     "id": 1,
     "title": "ESF (Europäischer Sozialfonds)",
     "category": "Fullstack",
-    "thumb": "portfolio-1.jpg",
+    "thumb": "projects/ibb-esf/1.jpg",
     "description": "ESF (Europäischer Sozialfonds): Portal für die Überprüfung der Anträge",
     "previewImages": [
-      "portfolio-1.jpg",
-      "portfolio-2.jpg"
+      "projects/ibb-esf/1.jpg",
+      "projects/ibb-esf/1.jpg"
     ],
     "meta": {
       "client": "IBB (Inverstitionsbank Berlin-Brandenburg",
@@ -33,11 +33,18 @@
     "id": 2,
     "title": "Stiftungsaufsicht",
     "category": "Fullstack",
-    "thumb": "portfolio-2.jpg",
+    "thumb": "projects/senjust-jahresabschluss/1.jpg",
     "description": "Portal für Abgabe und Überprüfung der Jahresberichte der Berliner Stiftungen",
     "previewImages": [
-      "portfolio-2.jpg",
-      "portfolio-2.jpg"
+      "projects/senjust-jahresabschluss/1.jpg",
+      "projects/senjust-jahresabschluss/2.jpg",
+      "projects/senjust-jahresabschluss/3.jpg",
+      "projects/senjust-jahresabschluss/4.jpg",
+      "projects/senjust-jahresabschluss/5.jpg",
+      "projects/senjust-jahresabschluss/6.jpg",
+      "projects/senjust-jahresabschluss/7.jpg",
+      "projects/senjust-jahresabschluss/8.jpg",
+      "projects/senjust-jahresabschluss/9.jpg"
     ],
     "meta": {
       "client": "Senatsverwaltung für Justiz, Vielfalt und Antidiskriminierung, Berlin",
@@ -122,11 +129,13 @@
     "id": 5,
     "title": "peredvizh.org",
     "category": "Design / Web",
-    "thumb": "portfolio-5.jpg",
+    "thumb": "projects/peredvizh/1.jpg",
     "description": "Projekt der reisenden Poesie",
     "previewImages": [
-      "portfolio-5.jpg",
-      "portfolio-1.jpg"
+      "projects/peredvizh/1.jpg",
+      "projects/peredvizh/2.jpg",
+      "projects/peredvizh/3.jpg",
+      "projects/peredvizh/4.jpg"
     ],
     "meta": {
       "client": "PANDA platforma e.V. mit Unterstützung des Auswärtigen Amtes der Bundesrepublik Deutschland",
@@ -154,11 +163,15 @@
     "id": 6,
     "title": "panda-platforma.berlin",
     "category": "Design / Web",
-    "thumb": "portfolio-5.jpg",
+    "thumb": "projects/panda/1.jpg",
     "description": "PANDA platforma: Kulturplattform in Berlin, Prenzlauer Berlg (Kulturbrauerei)",
     "previewImages": [
-      "portfolio-5.jpg",
-      "portfolio-1.jpg"
+      "projects/panda/1.jpg",
+      "projects/panda/2.jpg",
+      "projects/panda/3.jpg",
+      "projects/panda/4.jpg",
+      "projects/panda/5.jpg",
+      "projects/panda/6.jpg"
     ],
     "meta": {
       "client": "PANDA platforma e.V.",
@@ -182,12 +195,11 @@
     "id": 7,
     "title": "Stiller Alarm Mobile App",
     "category": "Mobile App",
-    "thumb": "portfolio-6.jpg",
+    "thumb": "projects/stiller-alarm-app/1.jpg",
     "description": "Alarmierungssystem Stiller Alarm: Mobile App",
     "previewImages": [
-      "portfolio-6.jpg",
-      "portfolio-2.jpg",
-      "portfolio-3.jpg"
+      "projects/stiller-alarm-app/1.jpg",
+      "projects/stiller-alarm-app/2.jpg"
     ],
     "meta": {
       "client": "Stiller Alarm GmbH",
@@ -213,12 +225,13 @@
     "id": 8,
     "title": "Stiller Alarm",
     "category": "Fullstack",
-    "thumb": "portfolio-6.jpg",
+    "thumb": "projects/stiller-alarm-web/1.jpg",
     "description": "Alarmierungssystem Stiller Alarm: Webportal + Desktop-Client",
     "previewImages": [
-      "portfolio-6.jpg",
-      "portfolio-2.jpg",
-      "portfolio-3.jpg"
+      "projects/stiller-alarm-web/1.jpg",
+      "projects/stiller-alarm-web/2.jpg",
+      "projects/stiller-alarm-web/3.jpg",
+      "projects/stiller-alarm-web/4.jpg"
     ],
     "meta": {
       "client": "Stiller Alarm GmbH",

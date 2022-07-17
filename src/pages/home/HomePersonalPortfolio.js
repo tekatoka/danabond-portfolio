@@ -7,20 +7,21 @@ import BannerPersonalPortfolio from "../../components/HeroBanner/PersonalPortfol
 import PersonalPortfolio from "../../container/portfolio/PersonalPortfolio";
 import PersonalPortfolioService from "../../container/service";
 import PersonalPortfolioTeam from "../../container/team";
+import PersonalPortfolioCareer from '../../container/career';
 import Contact from "../../container/contact";
 import Footer from "../../components/footer/FooterThree";
 
 const HomePersonalPortfolio = () => {
     return (
         <div className={'main-wrapper p-0'}>
-            <Header classes={'position-static'}/>
-            <SideHeader mobile={true}/>
-            <BannerPersonalPortfolio/>
-            <PersonalPortfolio/>
-            <PersonalPortfolioService/>
-            <PersonalPortfolioTeam/>
-            <Contact/>
-            <Footer position={'static'}/>
+            <Header classes={'position-static'} />
+            <SideHeader mobile={true} />
+            <BannerPersonalPortfolio />
+            <PersonalPortfolio />
+            <PersonalPortfolioService />
+            <PersonalPortfolioCareer />
+            <Contact />
+            <Footer position={'static'} />
         </div>
     );
 };

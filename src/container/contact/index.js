@@ -31,7 +31,7 @@ const Contact = () => {
 
                         <Col lg={6}>
                             <Map
-                                text={'Die beste Stadt der Welt: Berlin!'}
+                                text={'Seit über 20 Jahren: Die beste Stadt der Welt - Berlin!'}
                                 lat={52.520008}
                                 long={13.404954}
                             />

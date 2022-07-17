@@ -11,6 +11,7 @@ import ErrorPage from "./pages/404Error";
 import ContactPage from "./pages/contact";
 import ServicePage from "./pages/service";
 import ImpressumPage from "./pages/impressum";
+import PrivacyPage from "./pages/privacy";
 import HomeBlog from "./pages/home/HomeBlog";
 import HomeDefault from "./pages/home/HomeDefault";
 import HomeFiveColumn from './pages/home/HomeFiveColumn';
@@ -106,6 +107,8 @@ const App = () => {
                                           component={HomeDefault} />
                                    <Route path={`${process.env.PUBLIC_URL + "/impressum"}`}
                                           component={ImpressumPage} />
+                                   <Route path={`${process.env.PUBLIC_URL + "/privacy"}`}
+                                          component={PrivacyPage} />
                                    <Route exact path={`${process.env.PUBLIC_URL + "/"}`}
                                           component={HomePersonalPortfolio}
                                    />

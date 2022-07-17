@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 // File imported
 import HomeBlogPageHeader from "../../components/PageHeader/HomeBlog";
@@ -27,7 +27,7 @@ const ContentHomeBlogPage = () => {
         <div className="content-body section custom-scroll">
             <div className="section-wrap section">
 
-                <HomeBlogPageHeader/>
+                <HomeBlogPageHeader />
 
                 <div className="blog-wrap bg-grey section-padding pl-15 pl-xs-0 pr-15 pr-xs-0">
                     <div className="container">
@@ -47,12 +47,12 @@ const ContentHomeBlogPage = () => {
                         </div>
 
                         <div className="row">
-                            <LoadMore loadBlog={loadMore} totalPosts={totalPosts}/>
+                            <LoadMore loadBlog={loadMore} totalPosts={totalPosts} />
                         </div>
                     </div>
                 </div>
 
-                {loading ? <Loading/> : null}
+                {loading ? <Loading /> : null}
             </div>
         </div>
     );

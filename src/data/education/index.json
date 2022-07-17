@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Fachinformatikerin Anwendungsentwicklung (IHK)",
+        "school": "GPB Berlin",
+        "schoolWebsite": "https://www.gpb-college.de/",
+        "time": "08/2011 - 08/2013"
+    },
+    {
+        "id": 2,
+        "title": "Informatik",
+        "school": "TU Berlin",
+        "schoolWebsite": "https://www.tu.berlin/",
+        "time": "10/2004 - 09/2005"
+    },
+    {
+        "id": 3,
+        "title": "Journalistik / Kunstgeschichte",
+        "school": "Akademie für Bildende Kunst und Architektur, Kiew / Ukraine",
+        "schoolWebsite": "https://naoma.edu.ua/",
+        "time": "09/1996 - 06/2001"
+    }
+]

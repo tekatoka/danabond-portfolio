@@ -1,0 +1,49 @@
+/*----------------------------------------*/
+/*  06. portfolio CSS
+/*----------------------------------------*/
+
+/*-- portfolio Item --*/
+.career-item {
+  position: relative;
+  padding: 20px 20px 20px 30px;
+
+  .active-indicator {
+    background: $heading-color;
+    height: 90%;
+    width: 3px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+
+    &:hover {
+      background-color: $lightgrey;
+      .active-indicator {
+        top: 0;
+        height: 100%;
+      }
+    }
+
+  .career-image {
+    position: absolute;
+    right: 10px;
+    width: 100px;
+    max-width: 100px;
+  }
+}
+
+.show-items {
+         -webkit-transition:height, 0.5s linear;
+    -moz-transition: height, 0.5s linear;
+    -ms-transition: height, 0.5s linear;
+    -o-transition: height, 0.5s linear;
+    transition: height, 0.5s linear;
+}
+
+.show-items.full {
+         -webkit-transition:height, 0.5s linear;
+    -moz-transition: height, 0.5s linear;
+    -ms-transition: height, 0.5s linear;
+    -o-transition: height, 0.5s linear;
+    transition: height, 0.5s linear;
+}

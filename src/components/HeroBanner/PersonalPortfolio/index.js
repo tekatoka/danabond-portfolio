@@ -11,7 +11,7 @@ const BannerPersonalPortfolio = () => {
                 <h1>{personalInfo.name}</h1>
                 <h2>{personalInfo.designation}</h2>
                 <h3>{personalInfo.focus}</h3>
-                <h3><i className='fa fa-angle-double-right'></i> <a href={`${process.env.PUBLIC_URL + personalInfo.resumeURL}`}>Lebenslauf herunterladen</a></h3>
+                <h3><i className='fa fa-angle-double-right'></i> <a href={`${process.env.PUBLIC_URL + personalInfo.resumeURL}`} target="_blank" rel="noreferrer noopener">Lebenslauf herunterladen</a></h3>
             </div>
         </HeroBannerContainer>
     );

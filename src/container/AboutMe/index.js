@@ -6,10 +6,15 @@ import Skill from "../../components/skill";
 import aboutData from '../../data/about-me'
 
 const AboutMe = ({ type }) => {
+
+    const createMarkup = (txt) => {
+        return { __html: txt };
+    }
+
     return (
         <div className={type !== 'page' ? 'section-padding section' : null}>
             <Container>
-                <Row className={'align-items-center'}>
+                <Row className={'align-items-start'}>
                     <Col lg={6}>
                         <Thumbnail classes={'about-thumbnail mb-md-30 mb-sm-30 mb-xs-30'} thumb={`about/${aboutData.thumb}`} />
                     </Col>
@@ -17,19 +22,20 @@ const AboutMe = ({ type }) => {
                     <Col lg={6}>
                         <Content classes={'about-content'}>
                             {type !== 'page' ? (<h3 className="block-title">ABOUT ME</h3>) : null}
-                            <p>{aboutData.bio}</p>
+                            <div dangerouslySetInnerHTML={createMarkup(aboutData.bio)} />
                             <ul className="personal-info">
-                                <li><span>Github:</span>{aboutData.github}</li>
-                                <li><span>Freelance:</span>{aboutData.availability ? 'Available' : 'Not Available'}</li>
+                                <li><span>Github:</span><a href={`https://github.com/${aboutData.github}`}>{aboutData.github}</a></li>
+                                <li><span>Aktueller Arbeitgeber:</span><a href={`${aboutData.employerWebsite}`}>{aboutData.employer}</a></li>
+                                <li><span>Meine Projekte:</span><a href="/portfolio">s. Portfolio</a></li>
                                 <li>
-                                    <span>Language:</span>
+                                    <span>Sprachen:</span>
                                     {aboutData.languages.map((language, index) => (
                                         <p key={index} style={{ display: 'inline-block', marginRight: "3px" }}>{`${language}`}{index === aboutData.languages.length - 1 ? "" : ","}</p>
                                     ))}
                                 </li>
                             </ul>
 
-                            <h3 className="block-title">Skill</h3>
+                            <h3 className="block-title">Berufliche Interessen</h3>
 
                             <div className="skill-wrap">
                                 {aboutData.skills.map(skill => (

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Modal, ModalGateway } from "react-images";
 import PropTypes from "prop-types";
 import { CarouselThumb, CarouselMain } from './carousel';
@@ -24,6 +24,11 @@ const PortfolioDetailsThumb = ({ images }) => {
         ))
         setSliderImages(imgArray);
     }, [images])
+
+    // const openLightbox = useCallback((event, { photo, index }) => {
+    //     setCurrentImage(index);
+    //     setViewerIsOpen(true);
+    // }, []);
 
     return (
 

@@ -27,7 +27,7 @@ const PortfolioDetailsContent = ({ title, category, description, meta }) => {
                     ))}
                 </li>
                 <li>
-                    <span>Technologien:</span>
+                    <span>Stack:</span>
                     {meta?.technologies.map((service, index) => (
                         <><a key={index} href="/">{service}</a><br /></>
                     ))}

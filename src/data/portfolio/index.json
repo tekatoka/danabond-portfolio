@@ -228,13 +228,13 @@
     "id": 8,
     "title": "Stiller Alarm",
     "category": "Fullstack",
-    "thumb": "projects/stiller-alarm-portal/1.jpg",
+    "thumb": "projects/stiller-alarm-portal/0.jpg",
     "description": "Alarmierungssystem Stiller Alarm: Webportal + Desktop-Client",
     "previewImages": [
+      "projects/stiller-alarm-portal/0.jpg",
       "projects/stiller-alarm-portal/1.jpg",
       "projects/stiller-alarm-portal/2.jpg",
-      "projects/stiller-alarm-portal/3.jpg",
-      "projects/stiller-alarm-portal/4.jpg"
+      "projects/stiller-alarm-portal/3.jpg"
     ],
     "meta": {
       "client": "Stiller Alarm GmbH",

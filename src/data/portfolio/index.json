@@ -48,7 +48,7 @@
     ],
     "meta": {
       "client": "Senatsverwaltung für Justiz, Vielfalt und Antidiskriminierung, Berlin",
-      "date": "01/11/2019 - 01/03/2020 und 01/05/2022 - 01/08/2022",
+      "date": "01/04/2022 - 01/08/2022",
       "services": [
         "UI/UX Design",
         "Frontend",
@@ -56,7 +56,7 @@
       ],
       "technologies": [
         "React.js",
-        "Txypescript",
+        "Typescript",
         "Redux",
         "SASS/CSS",
         ".NET Core / C#",

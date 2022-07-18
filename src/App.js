@@ -39,6 +39,8 @@ import PortfolioMasonryFourColumnFullWidthPage from "./pages/portfolio/masonry/f
 import PortfolioMasonryFiveColumnFullWidthPage from "./pages/portfolio/masonry/five-column-fullwidth";
 import PortfolioMasonryThreeColumnFullWidthPage from "./pages/portfolio/masonry/three-column-fullwidth";
 
+import CookieConsentComponent from './components/CookieConsent';
+
 const App = () => {
        return (
               <Fragment>
@@ -114,6 +116,7 @@ const App = () => {
                                    />
                                    <Route exact component={ErrorPage} />
                             </Switch>
+                            <CookieConsentComponent />
                      </Router>
               </Fragment>
        );

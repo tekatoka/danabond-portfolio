@@ -1,0 +1,26 @@
+#cookie-consent {
+    a {
+        text-decoration: underline;
+    }
+
+    button {
+        min-width: 75px;
+        margin: 10px!important;
+
+        &.btn-primary {
+            background-color: $grey!important;
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+
+        &.btn-danger {
+            background-color: $theme-color-2!important;
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
+}

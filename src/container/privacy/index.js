@@ -2,8 +2,6 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import PageContainer from '../CustomPage';
 
-import impressumData from '../../../src/data/impressum';
-
 const ContentPrivacy = ({ type }) => {
     return (
 

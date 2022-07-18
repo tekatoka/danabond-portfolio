@@ -11,7 +11,7 @@
     ],
     "meta": {
       "client": "IBB (Inverstitionsbank Berlin-Brandenburg)",
-      "date": "01/11/2022 - 01/07/2022",
+      "date": "01/10/2021 - 01/07/2022",
       "services": [
         "UI/UX Design",
         "Frontend",
@@ -48,7 +48,7 @@
     ],
     "meta": {
       "client": "Senatsverwaltung für Justiz, Vielfalt und Antidiskriminierung, Berlin",
-      "date": "01/04/2022 - 01/08/2022",
+      "date": "01/11/2019 - 01/08/2022",
       "services": [
         "UI/UX Design",
         "Frontend",
@@ -69,11 +69,12 @@
     "id": 3,
     "title": "Königsteiner DataWarehouse",
     "category": "Frontend",
-    "thumb": "portfolio-3.jpg",
+    "thumb": "projects/dwh/1.jpg",
     "description": "Dashboard für das Monitoring der Werbecampaigns",
     "previewImages": [
-      "portfolio-3.jpg",
-      "portfolio-2.jpg"
+      "projects/dwh/1.jpg",
+      "projects/dwh/2.jpg",
+      "projects/dwh/3.jpg"
     ],
     "meta": {
       "client": "Königsteiner - Agentur für Personalmarketing",
@@ -98,11 +99,13 @@
     "id": 4,
     "title": "Königsteiner DSP (Demand Side Platform)",
     "category": "Fullstack",
-    "thumb": "portfolio-3.jpg",
+    "thumb": "projects/dsp/1.jpg",
     "description": "Portal für die Erstellung und Anpassung der Werbecampaigns",
     "previewImages": [
-      "portfolio-3.jpg",
-      "portfolio-2.jpg"
+      "projects/dsp/1.jpg",
+      "projects/dsp/2.jpg",
+      "projects/dsp/3.jpg",
+      "projects/dsp/4.jpg"
     ],
     "meta": {
       "client": "Königsteiner - Agentur für Personalmarketing",
@@ -203,7 +206,7 @@
     ],
     "meta": {
       "client": "Stiller Alarm GmbH",
-      "date": "01/06/2020 - 01/06/2021",
+      "date": "01/03/2020 - 31/12/2020",
       "website": "https://stilleralarm.de",
       "services": [
         "UI/UX Design",
@@ -225,13 +228,13 @@
     "id": 8,
     "title": "Stiller Alarm",
     "category": "Fullstack",
-    "thumb": "projects/stiller-alarm-web/1.jpg",
+    "thumb": "projects/stiller-alarm-portal/1.jpg",
     "description": "Alarmierungssystem Stiller Alarm: Webportal + Desktop-Client",
     "previewImages": [
-      "projects/stiller-alarm-web/1.jpg",
-      "projects/stiller-alarm-web/2.jpg",
-      "projects/stiller-alarm-web/3.jpg",
-      "projects/stiller-alarm-web/4.jpg"
+      "projects/stiller-alarm-portal/1.jpg",
+      "projects/stiller-alarm-portal/2.jpg",
+      "projects/stiller-alarm-portal/3.jpg",
+      "projects/stiller-alarm-portal/4.jpg"
     ],
     "meta": {
       "client": "Stiller Alarm GmbH",
@@ -257,15 +260,16 @@
     "id": 9,
     "title": "File Server Management Tools (FSM)",
     "category": "Fullstack",
-    "thumb": "portfolio-7.jpg",
+    "thumb": "projects/fsm/1.jpg",
     "description": "Entwicklung des Migrationstools für die Migrierung von Dateien",
     "previewImages": [
-      "portfolio-7.jpg",
-      "portfolio-3.jpg"
+      "projects/fsm/1.jpg",
+      "projects/fsm/2.jpg",
+      "projects/fsm/3.jpg"
     ],
     "meta": {
       "client": "IT-Dienstleistungszentrum Berlin (ITDZ Berlin)",
-      "date": "01/01/2018 - 01/12/2021",
+      "date": "01/10/2017 - 01/12/2021",
       "services": [
         "Frontend",
         "Backend",
@@ -284,11 +288,12 @@
     "id": 10,
     "title": "NetConFolder",
     "category": "SharePoint / Fullstack",
-    "thumb": "portfolio-8.jpg",
+    "thumb": "projects/ncf/2.png",
     "description": "Mobilen App und SharePoint Solution zur digitalen Darstellung von Arbeitsmappen",
     "previewImages": [
-      "portfolio-8.jpg",
-      "portfolio-4.jpg"
+      "projects/ncf/2.png",
+      "projects/ncf/3.png",
+      "projects/ncf/4.png"
     ],
     "meta": {
       "client": "Informationstechnikzentrum Bund (ITZBund) + Bundesfinanzministerium",
@@ -307,147 +312,229 @@
     }
   },
   {
-    "id": 9,
-    "title": "Portfolio Lorem ipsum",
-    "category": "Markup",
-    "thumb": "portfolio-9.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
-    "previewImages": [
-      "portfolio-9.jpg",
-      "portfolio-6.jpg"
-    ],
-    "meta": {
-      "client": "John Doe",
-      "date": "31/08/2021",
-      "website": "https://hasthemes.com",
-      "services": [
-        "Branding",
-        "Tech",
-        "Photography"
-      ]
-    }
-  },
-  {
-    "id": 10,
-    "title": "Minimau Typeface",
-    "category": "Markup",
-    "thumb": "portfolio-10.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
-    "previewImages": [
-      "portfolio-10.jpg",
-      "portfolio-4.jpg"
-    ],
-    "meta": {
-      "client": "Nasnim Shatun",
-      "date": "21/01/2021",
-      "website": "https://hasthemes.com",
-      "services": [
-        "Branding",
-        "Tech",
-        "Photography"
-      ]
-    }
-  },
-  {
     "id": 11,
-    "title": "Hardcover Book Cover",
-    "category": "Photography",
-    "thumb": "portfolio-11.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "title": "Stiller Alarm",
+    "category": "Web / CMS",
+    "thumb": "projects/stiller-alarm-web/1.jpg",
+    "description": "stilleralarm.de",
     "previewImages": [
-      "portfolio-11.jpg",
-      "portfolio-4.jpg"
+      "projects/stiller-alarm-web/1.jpg",
+      "projects/stiller-alarm-web/2.jpg",
+      "projects/stiller-alarm-web/3.jpg",
+      "projects/stiller-alarm-web/4.jpg"
     ],
     "meta": {
-      "client": "Khatun Bibi",
-      "date": "29/09/2021",
-      "website": "https://hasthemes.com",
+      "client": "Stiller Alarm GmbH",
+      "date": "01/03/2017 - heute",
+      "website": "https://stilleralarm.de",
       "services": [
-        "Branding",
-        "Tech",
-        "Photography"
+        "Web-Programmierung",
+        "CMS",
+        "Design-Umsetzung nach Designer-Vorgaben",
+        "Wartung & Support"
+      ],
+      "technologies": [
+        "Wordpress",
+        "PHP",
+        "HTML/CSS"
       ]
     }
   },
   {
     "id": 12,
-    "title": "Flying Macbook",
-    "category": "Markup",
-    "thumb": "portfolio-12.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "title": "Jaemacom Alarm",
+    "category": "Web / CMS",
+    "thumb": "projects/jaemacom/1.jpg",
+    "description": "jaemacom.de",
     "previewImages": [
-      "portfolio-12.jpg",
-      "portfolio-4.jpg"
+      "projects/jaemacom/1.jpg",
+      "projects/jaemacom/2.jpg",
+      "projects/jaemacom/3.jpg",
+      "projects/jaemacom/4.jpg",
+      "projects/jaemacom/5.jpg"
     ],
     "meta": {
-      "client": "Angel Sokina",
-      "date": "29/09/2021",
-      "website": "https://hasthemes.com",
+      "client": "Jaemacom GmbH",
+      "date": "01/10/2017 - heute",
+      "website": "https://jaemacom.de",
       "services": [
-        "Branding",
-        "Tech",
-        "Photography"
+        "Web-Programmierung",
+        "CMS",
+        "Design-Umsetzung nach Designer-Vorgaben",
+        "Wartung & Support"
+      ],
+      "technologies": [
+        "Wordpress",
+        "PHP",
+        "HTML/CSS"
       ]
     }
   },
   {
     "id": 13,
-    "title": "Minimau Typeface",
-    "category": "Website",
-    "thumb": "portfolio-13.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "title": "Flowster GmbH",
+    "category": "Web / CMS",
+    "thumb": "projects/flowster/1.jpg",
+    "description": "flowster.de + Kundenportal",
     "previewImages": [
-      "portfolio-13.jpg",
-      "portfolio-4.jpg"
+      "projects/flowster/1.jpg",
+      "projects/flowster/2.jpg",
+      "projects/flowster/3.jpg",
+      "projects/flowster/4.jpg",
+      "projects/flowster/5.jpg",
+      "projects/flowster/6.jpg"
     ],
     "meta": {
-      "client": "Alex Tuntuni",
-      "date": "11/11/2021",
-      "website": "https://hasthemes.com",
+      "client": "Flowster GmbH",
+      "date": "01/08/2018 - heute",
+      "website": "https://flowster.de",
       "services": [
-        "Branding",
-        "Photography"
+        "Web-Programmierung",
+        "CMS",
+        "Design-Umsetzung nach Designer-Vorgaben",
+        "Wartung & Support"
+      ],
+      "technologies": [
+        "Wordpress",
+        "PHP",
+        "HTML/CSS"
       ]
     }
   },
   {
     "id": 14,
-    "title": "Oil Paint Dog Two",
-    "category": "Design",
-    "thumb": "portfolio-14.jpg",
-    "description": "The majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "title": "MultiCloudPortal",
+    "category": "Frontend",
+    "thumb": "projects/multi-cloud-portal/1.jpg",
+    "description": "Portal zur Verwaltung von Cloud-Ressourcen",
     "previewImages": [
-      "portfolio-14.jpg",
-      "portfolio-4.jpg"
+      "projects/multi-cloud-portal/1.jpg",
+      "projects/multi-cloud-portal/2.jpg",
+      "projects/multi-cloud-portal/3.jpg"
     ],
     "meta": {
-      "client": "Jowel Mia",
-      "date": "09/09/2021",
-      "website": "https://hasthemes.com",
+      "client": "Flowster GmbH",
+      "date": "01/03/2019 - 30/09/2019",
       "services": [
-        "Branding",
-        "Tech"
+        "Frontend",
+        "UI/UX Design"
+      ],
+      "technologies": [
+        "React.js",
+        "Typescript",
+        "node.js",
+        "d3.js",
+        "MongoDB"
       ]
     }
   },
   {
     "id": 15,
-    "title": "Portfolio Lorem ipsum",
-    "category": "Markup",
-    "thumb": "portfolio-15.jpg",
-    "description": "Majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour lebmid. There are many variations of passages of Lorem Ipsum available.",
+    "title": "Azure MonitoringTool",
+    "category": "Fullstack",
+    "thumb": "projects/azure/1.jpg",
+    "description": "Internes Tool zum Überwachen der Builds & Releases auf Azure DevOps",
     "previewImages": [
-      "portfolio-15.jpg",
-      "portfolio-4.jpg"
+      "projects/azure/1.jpg",
+      "projects/azure/2.jpg"
     ],
     "meta": {
-      "client": "Humaun Khepa",
-      "date": "05/06/2021",
-      "website": "https://hasthemes.com",
+      "client": "Jaemacom GmbH",
+      "date": "01/10/2019 - 30/11/2019",
       "services": [
-        "Branding",
-        "Tech",
-        "Photography"
+        "Frontend",
+        "Backend",
+        "Integration von Azure API-Endponts"
+      ],
+      "technologies": [
+        "React.js",
+        "JavaScript",
+        "Redux"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "title": "duo schreib & spiel",
+    "category": "Fullstack",
+    "thumb": "projects/duo/1.jpg",
+    "description": "Online-Shop für Spielzeug und Schreibwaren",
+    "website": "https://www.duo-shop.de/",
+    "previewImages": [
+      "projects/duo/1.jpg",
+      "projects/duo/2.jpg",
+      "projects/duo/3.jpg"
+    ],
+    "meta": {
+      "client": "duo schreib & spiel Markenshop GmbH",
+      "date": "01/01/2015 - 30/09/2016",
+      "services": [
+        "Frontend",
+        "Backend",
+        "Datenbank"
+      ],
+      "technologies": [
+        ".NET / C#",
+        "ASP.NET MVC",
+        "Razor",
+        "MS SQL"
+      ]
+    }
+  },
+      {
+    "id": 17,
+    "title": "PriceBot",
+    "category": "Fullstack",
+    "thumb": "projects/pricebot/2.jpg",
+    "description": "Preis-Überwachungssoftware",
+    "website": "https://pricebot.io/",
+    "previewImages": [
+      "projects/pricebot/1.jpg",
+      "projects/pricebot/2.jpg",
+      "projects/pricebot/3.jpg",
+      "projects/pricebot/4.jpg"
+    ],
+    "meta": {
+      "client": "beCoding GmbH",
+      "date": "01/01/2015 - 30/09/2016",
+      "services": [
+        "Frontend",
+        "Backend",
+        "Datenbank",
+        "Design-Umsetzung nach Designer-Vorgaben"
+      ],
+      "technologies": [
+        ".NET / C#",
+        "ASP.NET MVC",
+        "Razor",
+        "MS SQL / T-SQL"
+      ]
+    }
+  },
+    {
+    "id": 5,
+    "title": "karussell-ev.de",
+    "category": "Design / Web",
+    "thumb": "projects/karussell/1.jpg",
+    "description": "Webseite für der Berliner Verein Karussell e.V.",
+    "previewImages": [
+      "projects/karussell/1.jpg",
+      "projects/karussell/2.jpg",
+      "projects/karussell/3.jpg"
+    ],
+    "meta": {
+      "client": "Karussell e.V.",
+      "date": "01/10/2018 - 31/12/2018",
+      "website": "https://karussell-ev.de",
+      "services": [
+        "Design",
+        "Web",
+        "Erstellung und Anpassung von CMS"
+      ],
+      "technologies": [
+        "Wordpress",
+        "PHP",
+        "HTML/CSS"
       ]
     }
   }

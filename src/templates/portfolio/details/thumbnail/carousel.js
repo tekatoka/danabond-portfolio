@@ -10,7 +10,7 @@ export const CarouselThumb = ({ images, currentImage, onViewChange }) => {
             frameProps={{ autoSize: 'height' }}
             trackProps={{
                 onViewChange: (idx) => onViewChange(idx),
-                infinite: true,
+                infinite: false,
                 align: 0
             }}
             views={images.map(x => ({

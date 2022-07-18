@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import Switcher from "./components/Switcher";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -42,6 +42,15 @@ import PortfolioMasonryThreeColumnFullWidthPage from "./pages/portfolio/masonry/
 import CookieConsentComponent from './components/CookieConsent';
 
 const App = () => {
+
+       useEffect(() => {
+              debugger;
+              if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                     debugger;
+                     // dark mode
+              }
+       })
+
        return (
               <Fragment>
                      <Switcher />

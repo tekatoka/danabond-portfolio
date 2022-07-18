@@ -401,3 +401,28 @@
     }
   }
 }
+
+.portfolio-carousel-main {
+  .react-images__track {
+    max-height: 375px;
+    cursor: pointer;
+  }
+
+  .react-images__navigation {
+    button {
+      background-color: rgba(0, 0, 0, .2);
+
+      &:hover {
+        background-color: $white;
+      }
+    }
+  }
+}
+
+.fullscreen {
+
+.react-images__footer {
+  color: $white;
+  padding: 0 10px;
+}
+}

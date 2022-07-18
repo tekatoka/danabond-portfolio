@@ -757,3 +757,14 @@
     }
   }
 }
+
+.career-item {
+
+  .active-indicator {
+    background: $white;
+  }
+
+      &:hover > * {
+      color: $black;
+      }
+    }

@@ -14,7 +14,6 @@ const PersonalPortfolioService = () => {
                         <Col>
                             <SectionTitle
                                 title={"Meine Skills"}
-                                content={"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, aliquam."}
                             />
                         </Col>
                     </Row>

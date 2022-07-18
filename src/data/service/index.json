@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "title": "WEB DESIGN",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "FRONTEND",
+    "content": "Funktionale Web-Applikationen mit gängigen modernen Frameworks (React.js, Angular2+), responsive Design, Barrierefreiheit, UX/UI Design"
   },
   {
     "id": 2,
-    "title": "PHOTOGRAPHY",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "BACKEND",
+    "content": "Entwicklung und Integration von RESTful APIs (.NET Core / C#, node.js), Unit Testing, Datenbanken: MS SQL, MySQL, NoSQL (MongoDB)"
   },
   {
     "id": 3,
-    "title": "WEB DEVELOPMENT",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "WEB DEVELOPMENT & CONTENT MANAGEMENT",
+    "content": "Moderne Webseiten auf Basis von Content-Management-Systemen: Traditionell (Wordpress) oder Headless (Strapi)"
   },
   {
     "id": 4,
     "title": "APP DEVELOPMENT",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "content": "Android/iOS Apps (React Native, FireBase)"
   },
   {
     "id": 5,
-    "title": "PHOTOSHOP",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "DIVERSE",
+    "content": "Azure DevOps, Versionierung TFS / Git, Agile Softwareentwicklung (Scrum, Kanban)"
   },
   {
     "id": 6,
-    "title": "GRAPHIC DESIGN",
-    "content": "There are many variations of passages of Ipsum available, but the majority have suffered alteration in some form, variations of passages of Ipsum available but the majority have suffered"
+    "title": "SONSTIGES",
+    "content": "Evaluierung von geeigneten Softwarelösungen, Planung, Erarbeitung von  Anforderungs- und Realisierungskonzepten, Dokumentation (techn. und Anwender), Support und Wartung"
   }
 ]

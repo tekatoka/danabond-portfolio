@@ -43,14 +43,6 @@ import CookieConsentComponent from './components/CookieConsent';
 
 const App = () => {
 
-       useEffect(() => {
-              debugger;
-              if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                     debugger;
-                     // dark mode
-              }
-       })
-
        return (
               <Fragment>
                      <Switcher />

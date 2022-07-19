@@ -22,7 +22,7 @@ const Contact = () => {
 
                                 <Col lg={10}>
                                     <QuickContact
-                                        email={'tekatoka@gmail.com'}
+                                        email={'dana.b@web.de'}
                                         location={'10553 Berlin'}
                                     />
                                 </Col>

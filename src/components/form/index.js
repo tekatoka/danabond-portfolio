@@ -36,7 +36,7 @@ const Form = () => {
     return (
         <>
             {isSent && <p className='success'>Danke {toSend.from_name}! Deine Nachricht wurde versendet.</p>}
-            {sendingFailed && <p className='error'>Oops!Irgendwas ist schief gelaufen.Deine Nachricht konnte nicht gesendet werden.Bitte die Seite neu laden und erneut versuchen. Danke!</p>}
+            {sendingFailed && <p className='error'>Oops! Irgendwas ist schief gelaufen. Deine Nachricht konnte nicht gesendet werden. Bitte die Seite neu laden und erneut versuchen. Danke!</p>}
             {!isSent &&
                 <form id="contact-form" onSubmit={onSubmit}>
                     <Input type={'text'} id={'from_name'} name={'from_name'} placeholder={'Name'} value={toSend.from_name} required={true} onChange={(e) => handleChange(e)} />

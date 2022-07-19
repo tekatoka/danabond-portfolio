@@ -84,7 +84,7 @@ const SideHeader = ({ mobile }) => {
 
                             <div className="side-header-footer pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
                                 <div className="side-header-contact-info">
-                                    <p><a href="mailto: tekatoka@gmail.com">tekatoka@gmail.com</a></p>
+                                    <p><a href="mailto: dana.b@web.de">dana.b@web.de</a></p>
                                 </div>
 
                                 <div className="side-header-social">

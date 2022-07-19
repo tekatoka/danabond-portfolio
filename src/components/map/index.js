@@ -12,7 +12,7 @@ const Map = ({ text, lat, long }) => {
             <div className="col-lg-10 col-12">
                 <div id="contact-map">
                     <iframe
-                        src={`https://maps.google.com/maps?q=${lat},${long}&hl=es&z=10&output=embed`}
+                        src={`https://maps.google.com/maps?q=${lat},${long}&hl=de&z=10&output=embed`}
                         title={'Contact Map'}
                         style={{ width: '100%', height: '100%', border: 0 }}
                     />

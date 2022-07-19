@@ -27,7 +27,7 @@ export const CarouselMain = ({ images, currentImage }) => {
         <Carousel
             currentIndex={currentImage}
             trackProps={{
-                infinite: true
+                infinite: false
             }}
             views={images.map(x => ({
                 ...x,

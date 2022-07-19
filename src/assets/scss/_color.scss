@@ -163,6 +163,7 @@
         & ul.project-info {
             & li {
                 & a {
+                    color: $theme-color-2;
                     &:hover {
                         color: $theme-color-1;
                     }

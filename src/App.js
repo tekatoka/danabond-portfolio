@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from 'react';
+import React, { Fragment } from 'react';
 import Switcher from "./components/Switcher";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 

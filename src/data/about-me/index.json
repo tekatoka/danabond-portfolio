@@ -14,12 +14,12 @@
   "skills": [
     {
       "id": 1,
-      "title": "Frontend",
+      "title": "Frontend / Web",
       "percentage": 100
     },
     {
       "id": 2,
-      "title": "Web / Usability",
+      "title": "Design / Usability",
       "percentage": 90
     },
     {

@@ -222,7 +222,7 @@
         }
 
         & h3 {
-            font-size: 16px;
+            font-size: 15px;
         }
 
         & a {
@@ -232,7 +232,7 @@
 
     @media #{$extra-small-mobile} {
         & h2 {
-            font-size: 24px;
+            font-size: 20px;
         }
 
         & h1 {
@@ -240,7 +240,7 @@
         }
 
         & a {
-            font-size: 18px;
+            font-size: 15px;
             margin-top: 10px;
         }
     }

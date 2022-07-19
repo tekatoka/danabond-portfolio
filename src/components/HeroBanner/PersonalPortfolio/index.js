@@ -7,7 +7,7 @@ const BannerPersonalPortfolio = () => {
     return (
         <HeroBannerContainer bg={bannerBg} overlay={false}>
             <div className="main-slider-content">
-                <h2>Hi , ich bin</h2>
+                <h2>Hi, ich bin</h2>
                 <h1>{personalInfo.name}</h1>
                 <h2>{personalInfo.designation}</h2>
                 <h3>{personalInfo.focus}</h3>

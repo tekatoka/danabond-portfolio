@@ -3,7 +3,9 @@ import Scrollbar from 'perfect-scrollbar-react';
 import 'perfect-scrollbar-react/dist/style.min.css';
 import Logo from "../logo";
 import NavItem from "../navbar/NavItem";
-import socialicons from '../../data/social-networks'
+import socialicons from '../../data/social-networks';
+import impressumData from '../../../src/data/impressum';
+import EmailLink from '../emailLink';
 
 const SideHeader = ({ mobile }) => {
 
@@ -84,7 +86,7 @@ const SideHeader = ({ mobile }) => {
 
                             <div className="side-header-footer pb-120 pb-lg-80 pb-md-80 pb-sm-80 pb-xs-50">
                                 <div className="side-header-contact-info">
-                                    <p><a href="mailto: dana.b@web.de">dana.b@web.de</a></p>
+                                    <p><EmailLink email={impressumData.email} /></p>
                                 </div>
 
                                 <div className="side-header-social">
@@ -96,7 +98,7 @@ const SideHeader = ({ mobile }) => {
                                 </div>
 
                                 <div className="side-header-copyright">
-                                    <p>&copy; {new Date().getFullYear()} DANABOND.</p>
+                                    <p>&copy; {new Date().getFullYear()} DANABOND</p>
                                 </div>
                             </div>
                         </div>

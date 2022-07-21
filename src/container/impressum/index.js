@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PageContainer from '../CustomPage';
 
 import impressumData from '../../../src/data/impressum';
+import EmailLink from '../../components/emailLink';
 
 const ContentImpressum = ({ type }) => {
     return (
@@ -19,7 +20,7 @@ const ContentImpressum = ({ type }) => {
                                         <div>{impressumData.name}</div>
                                         <div>{impressumData["address-line-1"]}</div>
                                         <div>{impressumData["address-line-2"]}</div>
-                                        <a href={`mailto: ${impressumData.email}`}>{impressumData.email}</a>
+                                        <EmailLink email={impressumData.email} />
                                         <div className='mt-25'>
 
                                             <strong>Vertreten durch: </strong> {impressumData.name}

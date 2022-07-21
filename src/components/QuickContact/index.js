@@ -1,4 +1,5 @@
 import React from 'react';
+import EmailLink from '../emailLink';
 
 const QuickContact = ({ phone, email, location }) => {
     return (
@@ -12,7 +13,7 @@ const QuickContact = ({ phone, email, location }) => {
                 }
                 <li>
                     <span>E-Mail:</span>
-                    <a href={`mailto:${email}`}>{email}</a>
+                    <EmailLink email={email} />
                 </li>
                 <li>
                     {location}

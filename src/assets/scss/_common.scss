@@ -67,16 +67,16 @@ p:last-child {
   margin-bottom: 0;
 }
 
-a {
-  color: $theme-color-2;
-}
-
 a, button {
   color: inherit;
   display: inline-block;
   line-height: inherit;
   text-decoration: none;
   cursor: pointer;
+}
+
+a {
+  color: $theme-color-2;
 }
 
 a, button, img, input, span {

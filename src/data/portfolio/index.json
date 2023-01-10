@@ -128,10 +128,40 @@
       ]
     }
   },
-  {
+     {
     "id": 5,
+    "title": "antibabylon.org",
+    "category": "Frontend / Design / Web",
+    "thumb": "projects/antibabylon/1.jpg",
+    "description": "free multilingual poetic space",
+    "previewImages": [
+      "projects/antibabylon/1.jpg",
+      "projects/antibabylon/2.jpg",
+      "projects/antibabylon/3.jpg",
+      "projects/antibabylon/4.jpg"
+    ],
+    "meta": {
+      "client": "PANDA platforma e.V. mit Unterstützung des Auswärtigen Amtes der Bundesrepublik Deutschland",
+      "date": "01/10/2021 - 01/12/2021",
+      "website": "https://antibabylon.org",
+      "services": [
+        "Branding",
+        "Design",
+        "Web / Frontend",
+        "UI/UX Design"
+      ],
+      "technologies": [
+        "React.js",
+        "Typescript / Javascript",
+        "SASS/CSS",
+        "Node.js"
+      ]
+    }
+  },
+  {
+    "id": 6,
     "title": "peredvizh.org",
-    "category": "Design / Web",
+    "category": "Frontend / Design / Web",
     "thumb": "projects/peredvizh/1.jpg",
     "description": "Projekt der reisenden Poesie",
     "previewImages": [
@@ -163,9 +193,9 @@
     }
   },
     {
-    "id": 6,
+    "id": 7,
     "title": "panda-platforma.berlin",
-    "category": "Design / Web",
+    "category": "Frontend / Design / Web",
     "thumb": "projects/panda/1.jpg",
     "description": "PANDA platforma: Kulturplattform in Berlin, Prenzlauer Berlg (Kulturbrauerei)",
     "previewImages": [
@@ -195,7 +225,7 @@
     }
   },
     {
-    "id": 7,
+    "id": 8,
     "title": "Stiller Alarm Mobile App",
     "category": "Mobile App",
     "thumb": "projects/stiller-alarm-app/1.jpg",
@@ -225,7 +255,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Stiller Alarm",
     "category": "Fullstack",
     "thumb": "projects/stiller-alarm-portal/0.jpg",
@@ -257,7 +287,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "File Server Management Tools (FSM)",
     "category": "Fullstack",
     "thumb": "projects/fsm/1.jpg",
@@ -285,7 +315,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "NetConFolder",
     "category": "SharePoint / Fullstack",
     "thumb": "projects/ncf/2.png",
@@ -312,7 +342,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Stiller Alarm",
     "category": "Web / CMS",
     "thumb": "projects/stiller-alarm-web/1.jpg",
@@ -341,7 +371,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Jaemacom Alarm",
     "category": "Web / CMS",
     "thumb": "projects/jaemacom/1.jpg",
@@ -371,7 +401,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Flowster GmbH",
     "category": "Web / CMS",
     "thumb": "projects/flowster/1.jpg",
@@ -402,7 +432,7 @@
     }
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "MultiCloudPortal",
     "category": "Frontend",
     "thumb": "projects/multi-cloud-portal/1.jpg",
@@ -429,7 +459,7 @@
     }
   },
   {
-    "id": 15,
+    "id": 16,
     "title": "Azure MonitoringTool",
     "category": "Fullstack",
     "thumb": "projects/azure/1.jpg",
@@ -454,7 +484,7 @@
     }
   },
   {
-    "id": 16,
+    "id": 17,
     "title": "duo schreib & spiel",
     "category": "Fullstack",
     "thumb": "projects/duo/1.jpg",
@@ -482,7 +512,7 @@
     }
   },
       {
-    "id": 17,
+    "id": 18,
     "title": "PriceBot",
     "category": "Fullstack",
     "thumb": "projects/pricebot/2.jpg",
@@ -512,7 +542,7 @@
     }
   },
     {
-    "id": 18,
+    "id": 19,
     "title": "karussell-ev.de",
     "category": "Design / Web",
     "thumb": "projects/karussell/1.jpg",

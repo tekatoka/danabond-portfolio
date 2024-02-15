@@ -1,7 +1,7 @@
 [
         {
         "id": 1,
-        "title": "Fullstack-Entwicklerin mit Fokus auf .NET und Frontend (React.js/TypeScript/.NET) - extern",
+        "title": "Fullstack-Entwicklerin mit Fokus auf .NET und Frontend (React.js/TypeScript/.NET): extern -> intern",
         "employer": "Investitionsbank Berlin",
         "employerWebsite": "https://ibb.de",
         "employerLogo": "ibb.png",
@@ -15,7 +15,7 @@
         "employer": "Jaemacom GmbH",
         "employerWebsite": "https://jaemacom.de",
         "employerLogo": "jaemacom.svg",
-        "time": "10/2016 - heute",
+        "time": "10/2016 - 03/2023",
         "isCurrent": true,
         "branch": "IT Dienstleister"
     },

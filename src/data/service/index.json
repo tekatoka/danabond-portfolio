@@ -12,7 +12,7 @@
   {
     "id": 3,
     "title": "WEB DEVELOPMENT & CONTENT MANAGEMENT",
-    "content": "Moderne Webseiten auf Basis von Content-Management-Systemen: Traditionell (Wordpress) oder Headless (Strapi)"
+    "content": "Moderne Webseiten mit React.js, und natürlich auch auf Basis von Content-Management-Systemen: Traditionell (Typo3, Wordpress...) oder Headless (Strapi)"
   },
   {
     "id": 4,
